@@ -1,11 +1,11 @@
-<div>
-    <p>{{bookItem?.id}}</p>
-    <p>{{bookItem?.title}}</p>
-    <p>{{bookItem?.description}}</p>
-    <p>{{bookItem?.author}}</p>
-    <p>{{bookItem?.comments}}</p>
-
-    <button (click)="edit()">EDIT</button>
-    <button (click)="delete()">DELETE</button>
-
+<div class="book">
+    {{bookItem?.id}}<br>
+    {{bookItem?.title}}<br>
+    {{bookItem?.description}}<br>
+    {{bookItem?.author}}<br>
+    {{bookItem?.comments}}
 </div>
+    <button class="button1"(click)="edit()">EDIT</button>
+    <button class="button2" (click)="delete()">DELETE</button>
+
+

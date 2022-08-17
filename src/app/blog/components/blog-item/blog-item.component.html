@@ -1,12 +1,15 @@
-<div class>
-   
-    <p>{{blogItem?.id}}</p>
-    <p>{{blogItem?.title}}</p>
-    <p>{{blogItem?.description}}</p>
-    <p>{{blogItem?.author}}</p>
-    <p>{{blogItem?.comments}}</p>
 
-    <button (click)="edit()">EDIT</button> |
-    <button (click)="delete()">DELETE</button>
+<div class="center">
+   
+    {{blogItem?.id}}<br>
+    {{blogItem?.title}}<br>
+    {{blogItem?.description}}<br>
+    {{blogItem?.author}}<br>
+    {{blogItem?.comments}}
 
 </div>
+<br>
+
+<button class="buttonA" (click)="edit()">EDIT</button> 
+
+<button class="buttonB" (click)="delete()">DELETE</button>
